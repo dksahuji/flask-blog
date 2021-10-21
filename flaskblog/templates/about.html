@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 80%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+</style>
+	<div class="about-section">
+  		<h1>About Me</h1>
+  		<p>We are a curious bunch. We write about machine learning & stuff (primarily), life, quotes, philosophy and other random stuff.</p>
+	</div>
+
+<!--
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/static/profile_pics/dksahu.jpg" alt="dksahu" style="width:100%">
+      <div class="container">
+        <h2>Devendra Kumar Sahu</h2>
+        <p class="title">Creator</p>
+        <p>Machine Learning Expert with about a decade since I started on this learning journey. Has a BE in ECE and MS in CSE. I have also worked as Applied Scientist at Amazon for 5+ years. </p>
+        <p>$$dksahuji.blog@gmail.com$$</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>  
+
+  <div class="column">
+    <div class="card">
+      <img src="/static/profile_pics/abc.jpg" alt="dksahu" style="width:100%">
+      <div class="container">
+        <h2>Devendra Kumar Sahu</h2>
+        <p class="title">Founder</p>
+        <p>Machine Learning Expert with about a decade since I started on this learning journey. Has a BE in ECE and MS in CSE. I have also worked as Applied Scientist at Amazon for 5+ years. </p>
+        <p>$$dksahuji.blog@gmail.com$$</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>  
+</div> -->
+{% endblock content %}
